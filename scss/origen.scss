@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #F7D7CD;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    margin: auto;   
+    grid-area: header;  
+    z-index: 1000;
+    color: white;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,600;1,100&display=swap');
+
+html{
+    font-family: "Montserrat",  sans-serif;
+}
+nav{
+    background-color: none;
+    font-size: 20px;
+}
+footer{
+    background-color: #F7D7CD;
+}
+
+.centrarTexto{
+    text-align: center;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+    font-size: 30px;
+}
+
+.centrar {
+    position: absolute;
+    height: 50vh;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    
+}
+.centro{
+    align-items: center;
+}
+
+.pie{
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+    align-items: center;
+}
+.sinBorde{
+    border: none;
+    background-color: #F7D7CD;
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    font-style: italic;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.redesPadding{
+    margin-left: 10px;
+    margin-right: 10px;
+}
