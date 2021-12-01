@@ -81,7 +81,7 @@ footer{
 
 .titulo{
     font-size: 40px;
-    color: black;
+    color: rgb(192, 163, 173);
 }
 
 .lineas{
@@ -94,7 +94,7 @@ footer{
 
 .subtitulo{
     text-decoration: underline; 
-    text-decoration-color: #8cc7b3;
+    text-decoration-color: #F7D7CD;
     font-weight: bold;
     font-size: 20px;
 }
@@ -110,4 +110,65 @@ footer{
     justify-content: space-between;
     align-items: stretch;
     padding: 10px;
+}
+.imagenRecetas{
+    width: 400px;
+    height: 400px;
+}
+.sinLineas{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+@media(min-width:600px) and (max-width: 1024px){
+    h2{
+        font-size: 25px;
+    }
+    .titulo{
+        font-size: 25px;
+    }
+    .imagenRecetas{
+        width: 320px;
+        height: 320px;
+    }
+    .recetasFlex{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: stretch;
+        padding: 20px;
+        font-size: 15px;
+    }
+    .sinLineas{
+        text-decoration: none;
+        color: black;
+        list-style: none;
+        font-size: 15px;
+    }
+}
+@media (min-width: 300px) and (max-width: 600px){
+    .titulo{
+        font-size: 20px;
+    }
+    .imagenRecetas{
+        width: 250px;
+        height: 250px;
+    }
+    .recetasFlex{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        font-size: 12px;
+    }
+    .sinLineas{
+        text-decoration: none;
+        color: black;
+        list-style: none;
+        font-size: 12px;
+    }
 }
