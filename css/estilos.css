@@ -160,17 +160,8 @@ footer {
   --sombra: 0 0 13px 0 rgba(185,185,185, .25); }
 
 body {
-  background: #f8fafb;
   font-family: 'Roboto', sans-serif; }
 
-main {
-  max-width: 1000px;
-  width: 90%;
-  margin: 40px auto; }
-
-/*! =================================================*/
-/*! ============= Categorias ============= */
-/*! =================================================*/
 .categorias {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -210,9 +201,6 @@ main {
 .categoria.activa path {
   fill: var(--primario); }
 
-/*! =================================================*/
-/*! ============= Contenedor Preguntas ============= */
-/*! =================================================*/
 .contenedor-preguntas {
   display: none;
   grid-template-columns: 1fr;
@@ -236,9 +224,6 @@ main {
 .contenedor-pregunta.activa {
   border: 2px solid var(--primario); }
 
-/*! =================================================*/
-/*! ============= Preguntas ============= */
-/*! =================================================*/
 .pregunta {
   font-weight: 700;
   font-size: 20px;

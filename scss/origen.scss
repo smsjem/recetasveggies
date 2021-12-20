@@ -172,6 +172,7 @@ footer{
         font-size: 12px;
     }
 }
+
 .articulos{
     color: #3a3a3a;
 	font-weight: 700;
@@ -183,26 +184,10 @@ footer{
 	--sombra: 0 0 13px 0 rgba(185,185,185, .25);
 }
 
-
-
 body {
-	background: #f8fafb;
 	font-family: 'Roboto', sans-serif;
 }
 
-main {
-	max-width: 1000px;
-	width: 90%;
-	margin: 40px auto;
-}
-
-.titulo {
-	
-}
-
-/*! =================================================*/
-/*! ============= Categorias ============= */
-/*! =================================================*/
 .categorias {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -250,9 +235,6 @@ main {
 	fill: var(--primario);
 }
 
-/*! =================================================*/
-/*! ============= Contenedor Preguntas ============= */
-/*! =================================================*/
 .contenedor-preguntas {
 	display: none;
 	grid-template-columns: 1fr;
@@ -281,9 +263,6 @@ main {
 	border: 2px solid var(--primario);
 }
 
-/*! =================================================*/
-/*! ============= Preguntas ============= */
-/*! =================================================*/
 .pregunta {
 	font-weight: 700;
 	font-size: 20px;
