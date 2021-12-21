@@ -82,6 +82,7 @@ footer{
 .titulo{
     font-size: 40px;
     color: rgb(192, 163, 173);
+    text-align: center;
 }
 
 .lineas{
@@ -125,6 +126,9 @@ footer{
     h2{
         font-size: 25px;
     }
+    body{
+        font-size: 15px;
+    }
     .titulo{
         font-size: 25px;
     }
@@ -147,8 +151,19 @@ footer{
         list-style: none;
         font-size: 15px;
     }
+    .pregunta {
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
 @media (min-width: 300px) and (max-width: 600px){
+    body{
+        font-size: 12px;
+    }
     .titulo{
         font-size: 20px;
     }
@@ -170,6 +185,14 @@ footer{
         color: black;
         list-style: none;
         font-size: 12px;
+    }
+    .pregunta {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }
 
@@ -295,4 +318,14 @@ body {
 .letraNegritaArticulos{
     font-weight: bold;
     color: rgb(44, 39, 39);
+}
+
+.contactos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    font-size: 12px;
 }
